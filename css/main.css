@@ -85,7 +85,7 @@ img {
     padding-left: 0;
     width: 100%;
 
-
+}
 .main-nav-item {
     margin-right: 24px;
 }
@@ -94,7 +94,7 @@ img {
 .sign-in-page {
     align-items: center;
     display: flex;
-    jurify-content: center;
+    justify-content: center;
     min-height: 100vh;
     min-width: 100vw;
 }
