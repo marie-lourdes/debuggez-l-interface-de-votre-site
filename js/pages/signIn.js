@@ -1,6 +1,6 @@
 const $signInForm = document.querySelector('.sign-in-form')
 
-const $userEmailInput = document.querySelectorAll('#user-email')
+const $userEmailInput = document.querySelector('#user-email')
 const $userEmailErrorMsg = document.querySelector('.user-email-error-msg')
 
 const $userPasswordInput = document.querySelector('#user-password')
