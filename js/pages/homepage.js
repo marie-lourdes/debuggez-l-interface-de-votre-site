@@ -111,6 +111,9 @@ const main = async () => {
 
     for (let i = offset; i < ITEMS_PER_PAGE + offset; i++) {
         if (sensorsData[i]) {
+            console.log("====")
+            console.log(createSensorCard(sensorsData[i]));
+            console.log("====")
             $sensorsWrapper.appendChild(createSensorCard(sensorsData[i]))
         }
     }
