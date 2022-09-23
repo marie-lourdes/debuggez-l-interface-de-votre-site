@@ -20,6 +20,7 @@ const main = () => {
 
     $addSensorForm.addEventListener('submit', e => {
         e.preventDefault()
+        return e.target.value;
         
         console.log("===")
     })
