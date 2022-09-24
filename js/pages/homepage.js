@@ -3,9 +3,9 @@ const $sensorsWrapper = document.querySelector('.sensors-wrapper')
 const ITEMS_PER_PAGE = 8
 
 const retrieveSensorsData = () => fetch('/data/homepage-data.json')
-    .then(res => res.json())
+    .then(res => res.json)
     .then(data => data.facades)
-    .catch(err => console.log("Oh no", err))
+    .catch(err => {})
 
 
 const createSensorCardImg = sensor => {
