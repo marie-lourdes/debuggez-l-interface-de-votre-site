@@ -106,8 +106,8 @@ const calculateOffset = () => {
 }
 
 
-const main = async () => {
-    const sensorsData = await retrieveSensorsData()
+const main = () => {
+    const sensorsData = retrieveSensorsData()
     
     createPagination(sensorsData.length)
     
