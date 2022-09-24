@@ -38,7 +38,7 @@ const createSensorCardInfo = sensor => {
         ? `Status : <span class="on">actif</span>`
 
 
-        : `Status : <span class="of">inactive</span>`
+        : `Status : <span class="off">inactive</span>`
 
     
     
