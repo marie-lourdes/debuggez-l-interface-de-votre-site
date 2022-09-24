@@ -36,7 +36,10 @@ const createSensorCardInfo = sensor => {
     $sensorInfoStatus.classList.add('sensor-info-status')
     $sensorInfoStatus.innerHTML = sensor.isActive
         ? `Status : <span class="on">actif</span>`
-        : `Status : <span class="off">inactif</span>`
+
+
+        : `Status : <span class="of">inactive</span>`
+
     
     
     const $sensorInfoBtn = document.createElement('a')
